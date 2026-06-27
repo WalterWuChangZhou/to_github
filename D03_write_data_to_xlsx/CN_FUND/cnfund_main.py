@@ -1,0 +1,13 @@
+
+
+from write_share_to_cnfund_xlsx import process_fund_share_data
+from write_nav_to_cnfund_xlsx import write_lof_fund_nav
+from write_forex import update_usd_cny_safe
+from write_close_amount_to_cn_fund_xlsx import process_fund_close_amount_data
+
+
+
+process_fund_share_data()
+write_lof_fund_nav()
+update_usd_cny_safe()
+process_fund_close_amount_data()

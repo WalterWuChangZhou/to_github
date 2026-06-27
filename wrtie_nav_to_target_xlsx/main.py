@@ -1,7 +1,3 @@
-"""
-程序入口 - 基金净值匹配工具
-从源文件夹(CSV)读取数据，更新目标文件(Excel)
-"""
 import sys
 import os
 from datetime import datetime

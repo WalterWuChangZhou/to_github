@@ -45,7 +45,7 @@ class ConfigManager:
         self.config['ColumnMapping'] = {
             'code_keywords': '代码,基金代码,基金编号,code,fund_code',
             'date_keywords': '日期,交易日期,净值日期,date,trade_date',
-            'nav_keywords': '净值,单位净值,NAV,nav,unit_nav'
+            'nav_keywords': 'sub_date,redemption_date'
         }
         
         self.config['Matching'] = {
